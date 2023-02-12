@@ -42,3 +42,11 @@ print(BookName)
 
 PI = 3.1416
 print(PI)
+
+# snake case
+
+my_string_variables = 'sebastian'
+
+my_int_variables = 20
+
+my_bool_variables = True
