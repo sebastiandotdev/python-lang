@@ -4,11 +4,18 @@
 
 - python es dinamico su valor puede ir cambiando mediante el proceso y flujo de su programacion
 
+# Funciones de la sistema
 
+- estas son las operaciones mas importante que ya tienen precargada el sistema nosotros podemos llamarla directamente passarle un parametros no depende de un un tipo de dato
+
+* print() # es una de las funciones del sistema que nos permite mirar el valor de cuyo dato por la terminal
+
+* type() # nos dice el tipo de dato
 
 ## tipos de datos
 
-- python tiene los siguientes tipos de datos: 
+- python tiene los siguientes tipos de datos:
+
 * string
 * number
 * boolean
@@ -17,6 +24,26 @@
 * dictonaries
 * none
 
+## varaibles
+
+- en python no requiere de una palabra reservada para nombrar una variable , es importante seguir las conveciones en las vairbles python nos dice que usemos la declaracion de una variable en minuscula y en snake_case
+
+```
+    name
+    lastname
+
+    my_name
+    my_lastname
+```
+
+### variables mal escritas
+
+```
+    my-name
+    first@name
+    num-1
+    1-num
+```
 
 ## metodos string
 
@@ -37,6 +64,3 @@
 8. str.join(iterable): une todas las cadenas en un iterable (como una lista o una tupla), separándolas con la cadena sobre la que se llama al método.
 
 Estos son solo algunos de los métodos más comunes de cadenas de caracteres en Python. Hay muchos otros que se pueden usar para realizar diversas tareas con cadenas de caracteres. Es importante que los conozcas y los entiendas bien para poder aprovechar al máximo las funcionalidades de Python.
-
-
-

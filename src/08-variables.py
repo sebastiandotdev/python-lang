@@ -12,8 +12,8 @@ print(boolean)
 check = [100,200,300]
 print(check)
 
-os = ('s', 'e', 'b', 'a', 's', 't', 'i', 'a', 'n')
-print(os)
+oss = ('s', 'e', 'b', 'a', 's', 't', 'i', 'a', 'n')
+print(oss)
 
 
 sebastian = {
