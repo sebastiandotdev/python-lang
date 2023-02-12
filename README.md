@@ -4,7 +4,7 @@
 
 - python es dinamico su valor puede ir cambiando mediante el proceso y flujo de su programacion
 
-# Funciones del a sistema
+# Funciones Built-in
 
 - estas son las operaciones mas importante que ya tienen precargada el sistema nosotros podemos llamarla directamente passarle un parametros no depende de un un tipo de dato
 
@@ -13,7 +13,7 @@
 ```
 A
 
-abs()
+abs() --retorna el numero absoluto
 aiter()
 all()
 any()
@@ -71,15 +71,15 @@ hex()
 I
 
 id()
-input()
-int()
+input() --recibe un dato y lo devuelve 
+int() -- transforma un numero de string a una entero
 isinstance()
 issubclass()
 iter()
 
 L
 
-len()
+len() -- cuenta los caracteres de una cadena de texto
 list()
 locals()
 
@@ -104,7 +104,7 @@ ord()
 P
 
 pow()
-print()
+print() -- nos muestra el dato por la shell
 property()
 
 R
@@ -121,7 +121,7 @@ setattr()
 slice()
 sorted()
 staticmethod()
-str()
+str() -- transforma un numero a un string
 sum()
 super()
 
@@ -142,13 +142,6 @@ _
 __import__()
 ```
 
-- print() # es una de las funciones del sistema que nos permite mirar el valor de cuyo dato por la terminal
-
-- type() # nos dice el tipo de dato
-
-- str() # transformar el tipo de dato a string
-
-- int() # transforma el tipo de dato a entero
 
 ## tipos de datos
 

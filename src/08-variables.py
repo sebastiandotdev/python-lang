@@ -24,7 +24,7 @@ sebastian = {
 print(sebastian)
 
 
-
+## variables de una linea
 book, link = 'join cheeck', 'http://3000'
 print(book)
 print(link)
