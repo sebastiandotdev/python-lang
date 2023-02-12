@@ -212,3 +212,12 @@ Estos son solo algunos de los métodos más comunes de cadenas de caracteres en 
 >>=	x >>= 3	x = x >> 3
 <<=	x <<= 3	x = x << 3
 ```
+
+## List
+
+* En programación, un "array" y una "lista" son términos que a menudo se utilizan para describir colecciones de datos similares, pero en realidad existen algunas diferencias importantes entre ellos.
+
+Un "array" es una estructura de datos en la que se almacenan elementos de un mismo tipo y tienen un tamaño fijo. Una vez que se ha definido el tamaño de un array, no se pueden agregar o quitar elementos, a menos que se cree un nuevo array con un tamaño diferente. Las operaciones en un array son generalmente más rápidas que en una lista debido a su estructura de datos contigua en la memoria.
+
+Por otro lado, una "lista" es una estructura de datos dinámica en la que los elementos se almacenan de forma no contigua y se pueden agregar y quitar elementos en cualquier momento. Las listas también permiten almacenar elementos de diferentes tipos y pueden tener un tamaño ilimitado. Las operaciones en una lista son un poco más lentas que en un array debido a la complejidad de su estructura de datos, pero son más flexibles y versátiles.
+
