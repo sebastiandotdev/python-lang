@@ -48,3 +48,11 @@ print(10 > 20 or 20 < 10)
 print(not(3 >= 4))
 
 
+## excersises
+
+print(True != False)
+print(True != (3 == 3))
+print(not(True))
+print(not(False))
+
+

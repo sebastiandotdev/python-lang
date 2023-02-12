@@ -99,12 +99,28 @@ print(myStr.strip())
 print(f'Hi my name is {name} {lastname}')
 print(name.upper().replace('SEBASTIAN', 'johan sebastian').count('a'))
 
-
-
-
-
 print(f'este es el vocabulary:  {vocabulary.split()}')
 
 
+# Desempaquetado de caracteres
 
+my_languages = 'python'
+p,y,t,h,o,n = my_languages
+
+print(p, y, t ,h , o , n, '<3')
+
+# Division
+
+languaje_slice = my_languages[0:6]
+print(languaje_slice)
+
+
+slice_division = my_languages[3:4]
+print(slice_division)
+
+puntos_dobles_reverse = my_languages[::-1]
+print(puntos_dobles_reverse)
+
+elima_los_caracteres_agregado = my_languages[0:3]
+print(elima_los_caracteres_agregado)
 
