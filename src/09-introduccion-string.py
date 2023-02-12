@@ -67,3 +67,27 @@ print(myStr.isalpha())
 ## posiciones
 
 print(myStr[2])
+
+
+## concatenacion
+
+print('hi my name is Sebastian' + 'castro garcia')
+
+## f // interpreta string
+
+print(f'hi my name is {myStr}')
+
+
+## forma // metodo de string que interpreta una variable en un string
+
+print('my name is {0}'.format(myStr))
+
+
+## strip // elimina los espacio en blanco en ambos extremos
+
+print(myStr.strip())
+
+
+## join // une toda la cadena
+
+print(myStr.join())
