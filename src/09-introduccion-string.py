@@ -36,3 +36,34 @@ print(myStr.startswith('Sebastian'))
 ## endsWith // nos dice si el caracter ingresado empieza por esa letra
 
 print(myStr.endswith('Sebastian'))
+
+
+## split // separa el texto en dos
+
+print(myStr.split())
+
+
+## find // busca un caracter
+
+print(myStr.find('o'))
+
+
+## len // cantidad de caracteres
+
+print(len(myStr))
+
+
+## index // me dice el indice de el caracter ingresado
+
+print(myStr.index('o'))
+
+
+## isnumeric // me dice si es un numero
+
+print(myStr.isnumeric())
+print(myStr.isalpha())
+
+
+## posiciones
+
+print(myStr[2])
