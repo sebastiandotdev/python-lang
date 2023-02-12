@@ -53,3 +53,11 @@ my_bool_variables = True
 
 print(str(f'my name is {my_string_variables}'))
 print(str(my_int_variables))
+
+
+## forzar tipado ? 
+address: str = 'mi dirrecion'
+address = 10
+address = True
+address = 1.2
+print(type(address))
