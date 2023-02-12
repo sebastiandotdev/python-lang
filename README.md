@@ -169,7 +169,7 @@ __import__()
 ### variables mal escritas
 
 ```
-    my-name
+    my-name 
     first@name
     num-1
     1-num
