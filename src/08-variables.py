@@ -50,3 +50,6 @@ my_string_variables = 'sebastian'
 my_int_variables = 20
 
 my_bool_variables = True
+
+print(str(f'my name is {my_string_variables}'))
+print(str(my_int_variables))
