@@ -1,5 +1,8 @@
 myStr = 'Jhon Doe'
 
+name = 'sebastian'
+lastname = 'castro'
+vocabulary = 'A B C D F G H I J K L M N O P Q R S T U V W X Y Z'
 # print(dir(myStr)) ## la funcion dir nos dice que podemos hacer con el tipo de dato string
 
 
@@ -90,4 +93,18 @@ print(myStr.strip())
 
 ## join // une toda la cadena
 
-print(myStr.join())
+## print(myStr.join())
+
+
+print(f'Hi my name is {name} {lastname}')
+print(name.upper().replace('SEBASTIAN', 'johan sebastian').count('a'))
+
+
+
+
+
+print(f'este es el vocabulary:  {vocabulary.split()}')
+
+
+
+
