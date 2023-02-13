@@ -271,23 +271,22 @@ sorted(): Devuelve una nueva tupla con los elementos ordenados.
 
 # sets
 
-* Un set en Python es una colección no ordenada y sin elementos repetidos. Los sets se utilizan a menudo para realizar operaciones matemáticas, como la unión, la intersección y la diferencia, en colecciones de datos.
+- Un set en Python es una colección no ordenada y sin elementos repetidos. Los sets se utilizan a menudo para realizar operaciones matemáticas, como la unión, la intersección y la diferencia, en colecciones de datos.
 
 Los sets se crean utilizando la función set() o mediante el uso de llaves {}. Aquí hay un ejemplo de cómo crear un set:
 
-````
+```
 >>> fruits = {"apple", "banana", "cherry"}
 >>> print(fruits)
 {'banana', 'apple', 'cherry'}
 
-````
+```
 
-
-* Es importante tener en cuenta que los sets no mantienen un orden específico, por lo que no puedes acceder a los elementos de un set por su posición. Además, los sets no permiten elementos repetidos, por lo que si intentas agregar un elemento que ya está en el set, no sucederá nada.
+- Es importante tener en cuenta que los sets no mantienen un orden específico, por lo que no puedes acceder a los elementos de un set por su posición. Además, los sets no permiten elementos repetidos, por lo que si intentas agregar un elemento que ya está en el set, no sucederá nada.
 
 En Python, los sets son muy útiles para realizar operaciones de conjuntos, como la eliminación de duplicados en una lista, la comprobación de pertenencia y la intersección de conjuntos.
 
-````
+```
 add(element): Agrega un elemento al set.
 
 clear(): Elimina todos los elementos del set.
@@ -310,14 +309,13 @@ remove(element): Elimina un elemento específico del set.
 
 union(other_set): Devuelve un set con los elementos de ambos sets, sin elementos repetidos.
 
-````
+```
 
 ## dictonaries
 
-* Un diccionario en Python es una estructura de datos que permite almacenar pares clave-valor. Cada elemento en un diccionario consiste en una clave única y un valor asociado a esa clave. Los diccionarios se crean utilizando llaves {} y se pueden acceder a los valores mediante las claves correspondientes. Los diccionarios son muy útiles para representar datos con una estructura clave-valor, como por ejemplo, una lista de contactos con nombres como clave y números de teléfono como valor.
+- Un diccionario en Python es una estructura de datos que permite almacenar pares clave-valor. Cada elemento en un diccionario consiste en una clave única y un valor asociado a esa clave. Los diccionarios se crean utilizando llaves {} y se pueden acceder a los valores mediante las claves correspondientes. Los diccionarios son muy útiles para representar datos con una estructura clave-valor, como por ejemplo, una lista de contactos con nombres como clave y números de teléfono como valor.
 
-
-`````
+```
 clear(): Elimina todos los elementos del diccionario.
 
 copy(): Devuelve una copia superficial del diccionario.
@@ -338,4 +336,17 @@ update(other_dict): Agrega todos los pares clave-valor de other_dict al dicciona
 
 values(): Devuelve una vista de todos los valores en el diccionario.
 
-````
+```
+
+## condtional
+
+Los condicionales en Python son estructuras de control de flujo que permiten tomar decisiones en función de ciertas condiciones. Los condicionales son una parte fundamental de cualquier lenguaje de programación y se utilizan para controlar el flujo de ejecución de un programa.
+
+El principal tipo de condicional en Python es el if statement, que permite ejecutar un bloque de código si se cumple una determinada condición. Aquí hay un ejemplo básico de un condicional
+
+```
+x = 5
+if x > 0:
+    print("x es positivo")
+
+```
