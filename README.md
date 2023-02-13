@@ -246,7 +246,24 @@ clear(): Elimina todos los elementos de la lista.
 
 Estos son solo algunos de los métodos más comunes que se pueden utilizar en una lista de Python. Hay muchos otros métodos y funciones que se pueden aplicar a las listas en Python, dependiendo de tus necesidades específicas.
 
+```
 
+## tuple
 
+- Las tuplas en Python son un tipo de datos inmutable, por lo que no se pueden modificar sus valores una vez que se han creado. Sin embargo, existen algunos métodos que puedes utilizar para trabajar con tuplas. Aquí están algunos de los métodos más importantes:
 
+```
+count(value): Devuelve el número de veces que un valor determinado aparece en una tupla.
+
+index(value): Devuelve el índice del primer elemento que coincide con el valor especificado.
+
+len(): Devuelve el número de elementos en una tupla.
+
+tuple(): Convierte una secuencia en una tupla.
+
+min(): Devuelve el elemento mínimo en una tupla.
+
+max(): Devuelve el elemento máximo en una tupla.
+
+sorted(): Devuelve una nueva tupla con los elementos ordenados.
 ```
