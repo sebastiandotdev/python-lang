@@ -151,6 +151,7 @@ __import__()
 * boolean
 * list
 * tuple
+* set
 * dictonaries
 * none
 
@@ -267,3 +268,46 @@ max(): Devuelve el elemento máximo en una tupla.
 
 sorted(): Devuelve una nueva tupla con los elementos ordenados.
 ```
+
+# sets
+
+* Un set en Python es una colección no ordenada y sin elementos repetidos. Los sets se utilizan a menudo para realizar operaciones matemáticas, como la unión, la intersección y la diferencia, en colecciones de datos.
+
+Los sets se crean utilizando la función set() o mediante el uso de llaves {}. Aquí hay un ejemplo de cómo crear un set:
+
+````
+>>> fruits = {"apple", "banana", "cherry"}
+>>> print(fruits)
+{'banana', 'apple', 'cherry'}
+
+````
+
+* Es importante tener en cuenta que los sets no mantienen un orden específico, por lo que no puedes acceder a los elementos de un set por su posición. Además, los sets no permiten elementos repetidos, por lo que si intentas agregar un elemento que ya está en el set, no sucederá nada.
+
+En Python, los sets son muy útiles para realizar operaciones de conjuntos, como la eliminación de duplicados en una lista, la comprobación de pertenencia y la intersección de conjuntos.
+
+
+`````
+add(element): Agrega un elemento al set.
+
+clear(): Elimina todos los elementos del set.
+
+copy(): Devuelve una copia superficial del set.
+
+difference(other_set): Devuelve un set con los elementos que están en el set actual pero no en other_set.
+
+intersection(other_set): Devuelve un set con los elementos que están en el set actual y en other_set.
+
+isdisjoint(other_set): Devuelve True si no hay intersección entre los dos sets, es decir, si no hay elementos en común.
+
+issubset(other_set): Devuelve True si todos los elementos del set actual están contenidos en other_set.
+
+issuperset(other_set): Devuelve True si todos los elementos de other_set están contenidos en el set actual.
+
+pop(): Elimina y devuelve un elemento arbitrario del set.
+
+remove(element): Elimina un elemento específico del set.
+
+union(other_set): Devuelve un set con los elementos de ambos sets, sin elementos repetidos.
+
+````
