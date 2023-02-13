@@ -282,12 +282,12 @@ Los sets se crean utilizando la función set() o mediante el uso de llaves {}. A
 
 ````
 
+
 * Es importante tener en cuenta que los sets no mantienen un orden específico, por lo que no puedes acceder a los elementos de un set por su posición. Además, los sets no permiten elementos repetidos, por lo que si intentas agregar un elemento que ya está en el set, no sucederá nada.
 
 En Python, los sets son muy útiles para realizar operaciones de conjuntos, como la eliminación de duplicados en una lista, la comprobación de pertenencia y la intersección de conjuntos.
 
-
-`````
+````
 add(element): Agrega un elemento al set.
 
 clear(): Elimina todos los elementos del set.
@@ -309,5 +309,33 @@ pop(): Elimina y devuelve un elemento arbitrario del set.
 remove(element): Elimina un elemento específico del set.
 
 union(other_set): Devuelve un set con los elementos de ambos sets, sin elementos repetidos.
+
+````
+
+## dictonaries
+
+* Un diccionario en Python es una estructura de datos que permite almacenar pares clave-valor. Cada elemento en un diccionario consiste en una clave única y un valor asociado a esa clave. Los diccionarios se crean utilizando llaves {} y se pueden acceder a los valores mediante las claves correspondientes. Los diccionarios son muy útiles para representar datos con una estructura clave-valor, como por ejemplo, una lista de contactos con nombres como clave y números de teléfono como valor.
+
+
+`````
+clear(): Elimina todos los elementos del diccionario.
+
+copy(): Devuelve una copia superficial del diccionario.
+
+get(key, default=None): Devuelve el valor asociado a la clave key. Si la clave no existe, devuelve default (por defecto, None).
+
+items(): Devuelve una vista de todos los pares clave-valor en el diccionario como una lista de tuplas.
+
+keys(): Devuelve una vista de todas las claves en el diccionario.
+
+pop(key, default=None): Elimina y devuelve el valor asociado a la clave key. Si la clave no existe, devuelve default (por defecto, None).
+
+popitem(): Elimina y devuelve un par clave-valor arbitrario del diccionario.
+
+setdefault(key, default=None): Devuelve el valor asociado a la clave key. Si la clave no existe, agrega un nuevo par clave-valor con la clave key y el valor default (por defecto, None).
+
+update(other_dict): Agrega todos los pares clave-valor de other_dict al diccionario actual.
+
+values(): Devuelve una vista de todos los valores en el diccionario.
 
 ````
