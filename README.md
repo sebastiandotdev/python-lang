@@ -169,7 +169,7 @@ __import__()
 ### variables mal escritas
 
 ```
-    my-name 
+    my-name
     first@name
     num-1
     1-num
@@ -215,9 +215,38 @@ Estos son solo algunos de los métodos más comunes de cadenas de caracteres en 
 
 ## List
 
-* En programación, un "array" y una "lista" son términos que a menudo se utilizan para describir colecciones de datos similares, pero en realidad existen algunas diferencias importantes entre ellos.
+- En programación, un "array" y una "lista" son términos que a menudo se utilizan para describir colecciones de datos similares, pero en realidad existen algunas diferencias importantes entre ellos.
 
 Un "array" es una estructura de datos en la que se almacenan elementos de un mismo tipo y tienen un tamaño fijo. Una vez que se ha definido el tamaño de un array, no se pueden agregar o quitar elementos, a menos que se cree un nuevo array con un tamaño diferente. Las operaciones en un array son generalmente más rápidas que en una lista debido a su estructura de datos contigua en la memoria.
 
 Por otro lado, una "lista" es una estructura de datos dinámica en la que los elementos se almacenan de forma no contigua y se pueden agregar y quitar elementos en cualquier momento. Las listas también permiten almacenar elementos de diferentes tipos y pueden tener un tamaño ilimitado. Las operaciones en una lista son un poco más lentas que en un array debido a la complejidad de su estructura de datos, pero son más flexibles y versátiles.
 
+```
+Hay muchos métodos que se pueden utilizar en una lista de Python, pero aquí hay algunos de los más importantes:
+
+append(element): Agrega un elemento al final de la lista.
+
+extend(iterable): Agrega todos los elementos de un objeto iterable (como una lista) al final de la lista.
+
+insert(index, element): Inserta un elemento en una posición específica en la lista.
+
+remove(element): Elimina el primer elemento de la lista que sea igual al elemento especificado.
+
+pop(index): Elimina el elemento en una posición específica en la lista y lo devuelve.
+
+index(element): Devuelve el índice del primer elemento en la lista que sea igual al elemento especificado.
+
+count(element): Devuelve el número de veces que aparece un elemento específico en la lista.
+
+sort(): Ordena los elementos de la lista en orden ascendente.
+
+reverse(): Invierte el orden de los elementos en la lista.
+
+clear(): Elimina todos los elementos de la lista.
+
+Estos son solo algunos de los métodos más comunes que se pueden utilizar en una lista de Python. Hay muchos otros métodos y funciones que se pueden aplicar a las listas en Python, dependiendo de tus necesidades específicas.
+
+
+
+
+```
