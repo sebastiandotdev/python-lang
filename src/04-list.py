@@ -1,5 +1,15 @@
+""" 
+  ! me sorprendio pense que python manejaba arrays pero son listas, la diferencia es bastante interesante 
+"""
+
+""" 
+  ? El tipo de una Lista
+"""
 print(type(['string', 10, True]))
 
+""" 
+! Lista de numeros
+"""
 # list number
 [10,20,30,40]
 [10,20,30,40,50]
@@ -10,6 +20,10 @@ print(type(['string', 10, True]))
 
 
 # list string
+
+""" 
+  ! Lista de string
+"""
 ['h']
 ['h', 'o']
 ['h', 'o', 'l']
@@ -22,5 +36,8 @@ print(type(['string', 10, True]))
 
 
 # lis boolean
+""" 
+  ! Lista de booleanos
+"""
 [True, False]
 [False, True]

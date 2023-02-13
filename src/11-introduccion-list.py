@@ -61,8 +61,8 @@ print(my_list_sebastian)
 my_list_sebastian.sort()
 print(my_list_sebastian)
 """
-  provamos diferentes metodos de una lista
- """
+ @  provamos diferentes metodos de una lista
+"""
 del my_list_sebastian[1]
 print(my_list_sebastian)
 
