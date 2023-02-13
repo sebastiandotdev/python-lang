@@ -31,7 +31,6 @@ print(my_list + my_other_list)
 # print(my_list * my_other_list) ERROR
 # print(my_list / my_other_list)
 
-
 # metodos
 
 my_list_sebastian = ['sebastian', 'castro']
@@ -47,20 +46,30 @@ print(my_list_sebastian)
 my_list_sebastian.remove('este es el insert') ## remove dile el elemento y el lo eliminara
 print(my_list_sebastian)
 
+"""Este es un comentario en python para documentar"""
 my_list_sebastian.pop()
 print(my_list_sebastian)
 
+"""reverse invierte los valores"""
 my_list_sebastian.reverse()
 print(my_list_sebastian)
 
+"""
+  _summary_
+  documentacion en python importante
+"""
 my_list_sebastian.sort()
 print(my_list_sebastian)
-
+"""
+  provamos diferentes metodos de una lista
+ """
 del my_list_sebastian[1]
 print(my_list_sebastian)
 
 my_new_list = my_list_sebastian.copy()
 print(my_new_list)
 
+
 my_list_sebastian.clear()
 print(my_list_sebastian)
+
