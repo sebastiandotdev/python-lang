@@ -97,4 +97,8 @@ else:
 
 
 
+while my_condition < 10: 
+    print("hola carlos")
+else:
+    print("no sirve")
 print("bucles finalizado")
