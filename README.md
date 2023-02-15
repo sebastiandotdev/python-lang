@@ -350,3 +350,33 @@ if x > 0:
     print("x es positivo")
 
 ```
+
+## loops
+
+* Un loop, en el contexto de la programación, es una estructura de control que permite repetir una serie de instrucciones varias veces, mientras se cumpla una determinada condición.
+
+En Python, hay dos tipos principales de loops: el "for loop" y el "while loop". El "for loop" se utiliza para iterar sobre una secuencia de elementos, como una lista o una cadena de texto, mientras que el "while loop" se utiliza para repetir un bloque de código mientras se cumple una determinada condición.
+
+En resumen, los loops son una herramienta fundamental en la programación para automatizar tareas que requieren repetición de acciones, lo que hace que el código sea más eficiente y fácil de mantener.
+
+* Listas: una colección ordenada y mutable de elementos.
+Tuplas: una colección ordenada e inmutable de elementos.
+Conjuntos: una colección desordenada y mutable de elementos únicos.
+Diccionarios: una colección de pares clave-valor, en la que los elementos no están ordenados.
+
+`````
+# while
+
+my_condition = 0
+
+while my_condition < 10:
+    print("hola sebastian")
+    my_condition += 2
+else: # es opcional
+    print("mi condition es mayor que 10 o igual")   
+
+# for loop
+my_string = "sebastian"
+for element in my_string:  # devuelve caracter por caracter
+    print(element)
+````
