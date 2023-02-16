@@ -68,3 +68,27 @@ mercede = Car("mercede", "blue", "160km")
 print(mercede.full__car("2021"))
 print(mercede.get__color())
 print(mercede.get__model())
+
+
+class Movies: 
+    def __init__(self, name, gene, year , IMDB):
+        self.name = name
+        self.gene = gene
+        self.year = year
+        self.IMDB = IMDB
+
+
+my_movies = [
+    {
+        "id": 1,
+        "name": "the batman",
+        "gene": "aventures",
+        "year": "2022",
+        "IMDB": "20001T"
+    }
+]
+
+for movie in my_movies: 
+    batman = Movies(movie["name"], movie["gene"], movie["year"],movie["IMDB"])
+    print(f"name: {batman.name} gene: {batman.gene} year: {batman.year}")
+
