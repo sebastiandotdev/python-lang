@@ -400,3 +400,35 @@ resultado = suma(3, 5)
 print(resultado) # muestra 8
 
 ````
+
+## class
+
+* En Python, una clase es un tipo de objeto que permite definir un conjunto de atributos y métodos que se pueden utilizar para crear instancias de la clase. Una clase se puede considerar como un molde para crear objetos, donde cada objeto creado a partir de la clase tiene sus propios atributos y métodos.
+
+* self: En el contexto de la programación orientada a objetos en Python, self es una convención utilizada para referirse a la instancia de la clase en la que se está trabajando.
+
+En el constructor de una clase, self se utiliza para hacer referencia a la instancia que se está creando. En otras palabras, cuando se crea un objeto a partir de una clase, self hace referencia a ese objeto recién creado.
+
+Por ejemplo, considera la siguiente clase Persona:
+
+````
+class Persona:
+    def __init__(self, nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
+
+persona = Persona("Juan", 30)
+
+
+class Persona:
+    def __init__(self, nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
+        
+    def saludar(self):
+        print("Hola, mi nombre es " + self.nombre)
+
+persona = Persona("Juan", 30)
+persona.saludar()
+
+````
