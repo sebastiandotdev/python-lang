@@ -147,7 +147,7 @@ __import__()
 - python tiene los siguientes tipos de datos:
 
 * string
-* number
+* int
 * boolean
 * list
 * tuple
@@ -379,4 +379,24 @@ else: # es opcional
 my_string = "sebastian"
 for element in my_string:  # devuelve caracter por caracter
     print(element)
+
+`````
+
+
+## functions
+
+* En Python, las funciones son bloques de código que se pueden llamar para realizar una tarea específica. Las funciones permiten a los programadores dividir el código en tareas más pequeñas y manejables, lo que hace que el código sea más fácil de entender, depurar y mantener.
+
+En Python, las funciones se definen utilizando la palabra clave "def" seguida del nombre de la función, paréntesis que pueden incluir argumentos de entrada y dos puntos. Luego, el cuerpo de la función se escribe con sangría. Las funciones pueden devolver un valor utilizando la palabra clave "return".
+
+
+
+````
+def suma(a, b):
+    resultado = a + b
+    return resultado
+
+resultado = suma(3, 5)
+print(resultado) # muestra 8
+
 ````
