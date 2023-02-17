@@ -432,3 +432,21 @@ persona = Persona("Juan", 30)
 persona.saludar()
 
 ````
+
+## exxcepciones
+
+* Las excepciones en Python son eventos que ocurren durante la ejecución de un programa que interrumpen el flujo normal de ejecución. Cuando una excepción ocurre, Python interrumpe la ejecución del programa y busca un manejador de excepción que pueda procesar la excepción.
+
+Para manejar las excepciones en Python, se utiliza el bloque try-except. El bloque try contiene el código que puede generar una excepción, y el bloque except contiene el código que se ejecutará si se produce una excepción. El bloque except puede manejar una o varias excepciones específicas, o bien puede manejar cualquier excepción genérica.
+
+Por ejemplo, el siguiente código utiliza el bloque try-except para manejar una excepción de división por cero:
+
+* En resumen, las excepciones son una parte importante del manejo de errores en Python, y el bloque try-except es la forma recomendada de manejarlas.
+
+`````
+    try:
+    x = 1 / 0
+except ZeroDivisionError:
+    print("¡Error! División por cero.")
+
+`````
