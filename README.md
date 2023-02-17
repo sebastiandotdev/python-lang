@@ -487,3 +487,8 @@ print(resultado1, resultado2)
 La carpeta "pycache" se encuentra en el mismo directorio que el archivo del módulo que se está importando y se utiliza para almacenar los archivos de caché de los módulos importados para mejorar el rendimiento de los programas. Al compilar los módulos en archivos de byte-code, Python puede evitar la compilación repetida de módulos que ya han sido importados, lo que puede reducir el tiempo de carga y mejorar el rendimiento de los programas.
 
 * La carpeta "pycache" no debe ser modificada manualmente y no es necesario borrarla, ya que Python la gestiona automáticamente. Sin embargo, si se desea borrar los archivos de caché de módulos importados, se puede utilizar la opción "-B" o "-b" al invocar Python, que deshabilita la creación de archivos de caché de módulos importados. Por ejemplo:
+
+
+## finalizando
+
+* si has llegado hasta aqui conmigo te felicito por tu esfuerzo y dedicacion ahora te invito a que ppongas en practica python realizando proyecto , buena suerte
