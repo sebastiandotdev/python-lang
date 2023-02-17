@@ -450,3 +450,40 @@ except ZeroDivisionError:
     print("¡Error! División por cero.")
 
 `````
+
+## modules
+
+* En Python, un módulo es un archivo que contiene definiciones y declaraciones de funciones, variables, clases y otros objetos que pueden ser reutilizados en diferentes programas. Los módulos en Python se utilizan para organizar el código y para permitir la reutilización de código en diferentes programas.
+
+Los módulos en Python se pueden importar en otros programas para utilizar su funcionalidad. Para importar un módulo en Python, se utiliza la instrucción import, seguida del nombre del módulo. Por ejemplo, si se tiene un archivo llamado "mimodulo.py", que contiene una función llamada "saludar", se puede importar y utilizar esa función en otro archivo de la siguiente manera:
+
+````
+import mimodulo
+
+mimodulo.saludar()
+
+````
+
+* Además de la instrucción import, existen otras formas de importar módulos en Python, como por ejemplo la instrucción from...import, que permite importar solamente funciones o variables específicas de un módulo.
+
+Python viene con muchos módulos integrados, como por ejemplo el módulo "os" para operaciones del sistema operativo, el módulo "random" para la generación de números aleatorios, y el módulo "datetime" para trabajar con fechas y tiempos.
+
+También es posible crear y utilizar módulos personalizados en Python, lo que permite reutilizar el código en diferentes proyectos y mejorar la organización y mantenibilidad del código.
+
+````
+from operaciones import suma, resta
+
+resultado1 = suma(3, 4)
+resultado2 = resta(7, 5)
+
+print(resultado1, resultado2)
+
+````
+
+## __pycache__
+
+* La carpeta "pycache" es una carpeta que se genera automáticamente por Python para almacenar archivos de caché de módulos importados. Cuando se importa un módulo en Python, el intérprete de Python compila el código fuente del módulo en un archivo de byte-code, que se almacena en la carpeta "pycache" con el nombre del módulo y la extensión ".pyc" o ".pyo" (dependiendo de si se utilizan optimizaciones).
+
+La carpeta "pycache" se encuentra en el mismo directorio que el archivo del módulo que se está importando y se utiliza para almacenar los archivos de caché de los módulos importados para mejorar el rendimiento de los programas. Al compilar los módulos en archivos de byte-code, Python puede evitar la compilación repetida de módulos que ya han sido importados, lo que puede reducir el tiempo de carga y mejorar el rendimiento de los programas.
+
+* La carpeta "pycache" no debe ser modificada manualmente y no es necesario borrarla, ya que Python la gestiona automáticamente. Sin embargo, si se desea borrar los archivos de caché de módulos importados, se puede utilizar la opción "-B" o "-b" al invocar Python, que deshabilita la creación de archivos de caché de módulos importados. Por ejemplo:
