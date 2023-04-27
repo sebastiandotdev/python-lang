@@ -15,5 +15,8 @@ texto = 'holas'
 
 
 with open('gestion_de_archivos/hola-archivo.txt') as archivo:
-    texto = archivo.read()
-    print(texto)
+    # texto = archivo.read()
+    # print(texto)
+
+    for line in archivo:
+        print(line)
