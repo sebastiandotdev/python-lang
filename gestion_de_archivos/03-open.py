@@ -7,8 +7,13 @@ texto = 'holas'
 # archivo.write(texto)
 # archivo.close()
 
-archivo = open('gestion_de_archivos/hola-archivo.txt', 'r')
+# archivo = open('gestion_de_archivos/hola-archivo.txt', 'r')
 
-texto = archivo.read()
-archivo.close()
-print(texto)
+# texto = archivo.read()
+# archivo.close()
+# print(texto)
+
+
+with open('gestion_de_archivos/hola-archivo.txt') as archivo:
+    texto = archivo.read()
+    print(texto)
