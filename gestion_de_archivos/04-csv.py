@@ -9,6 +9,6 @@ import csv
 
 with open('gestion_de_archivos/archiv.csv', 'r') as archivo:
     reader = csv.reader(archivo)
-
+    archivo.seek(0)
     for line in reader:
         print(line)
