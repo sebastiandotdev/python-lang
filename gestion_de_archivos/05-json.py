@@ -10,3 +10,5 @@ products = [
 
 data = json.dumps(products)
 print(data)
+
+Path('gestion_de_archivos/products.json').write_text(data)
