@@ -6,7 +6,7 @@ with _sqlite3.connect("database/app.db") as conn:
 
     cursor.execute(
         """
-            CREATE TABLE if not exists usuarios
-            (id INTENGER primary key, nombre VARCHAR(50));
-            """
+        CREATE TABLE if not exists usuarios
+        (id INTENGER primary key, nombre VARCHAR(50));
+        """
     )
