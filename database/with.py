@@ -10,3 +10,4 @@ with _sqlite3.connect("database/app.db") as conn:
         (id INTENGER primary key, nombre VARCHAR(50));
         """
     )
+    # :/
